@@ -1,0 +1,23 @@
+header{
+	background-color: red;
+}
+
+section{
+	background-color: yellow;
+}
+
+aside{
+	background-color: blue;
+	color: #FFFF;
+}
+footer{
+	background-color: red;
+	color: #FFFF;
+}
+
+div.noticias:nth-child(odd){
+	background-color: lime;
+}
+div.noticias:nth-child(even){
+	background-color: gray;
+}

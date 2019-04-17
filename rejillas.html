@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplos de Rejillas</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="rejillasStyle.css">
+</head>
+<body>
+<header>
+	<div class = "container-fluid">El header con class container-fluid para que ocupe el 10%% de la pantalla</div>
+</header>
+<div class="container">
+<section class="main row">
+	<article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+		<h3>Article</h3>
+		<p>Todas las secciones y los divs se encuentran dentro de una section de class="container", el container es para crear todo un cuerpo</p>
+		<p>Este article, está dentro de un section. Al section se le puso clase main row. El main indica que es la sección principal, y row indica que se tomará como una fila de bootstrap</p>
+		
+	</article>
+	<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+	<h3>Aside</h3>
+	<p>Esta región aside, y la anterior región Article forman las dos columnas de la fila declarada en section</p>
+	<p>Cada fila de bootstrap tiene 12 columnas.</p>
+	<p>Cada sección dentro de una fila podrá ocupar de 1 a 12 columnas</p>
+	<p>Pero el número de columnas utilizadas en total siempre deberá dar 12</p>
+	<p>Por ejemplo: este aside usa 3 columnas y el Article que le precede utiliza 9</p>
+</aside>
+</section>
+<div class="row">
+	<div class="col-xs-12 col-lg-3 noticias">
+		<h3>Div A</h3>
+		<p>Los siguientes div (A,B,C,D) pertenecen a otra fila</p>
+	<p> Cada uno deberá ocupar 3 columnas cuando el tamaño del monitor sea grande o extra-grande </p>
+</div>
+	<div class="col-xs-12 col-lg-3 noticias">
+		<h3>Div B</h3>
+		<p>Si la pantalla es muy pequeña o mediana, cada div utilizará el máximo número de columnas, 12</p>
+		<p>Decidir cuántas columnas ocupará una sección según el tipo de pantalla se logra con las siguientes clases:</p>
+		<li>
+			<ul>col-xs-#: xs significa extra small, el # debe ser reemplazado por el número de columnas a ocupar</ul>
+			<ul>col-md-#: md significa medium</ul>
+			<ul>col-lg-#: ld significa large</ul>
+			<ul>col-xl-#: xl significa extra large</ul>
+		</li>
+	</div>
+
+
+
+	<div class="col-xs-12 col-lg-3 noticias">
+		<h3>Div C</h3>
+		<p>Antes de este div, existe un div class= clearfix visible-sm-block que permite que no se deforme el formato por ejemplo como aquí donde el div B es más grande que el div C</p>
+	</div>
+	
+	
+	<div class="col-xs-12 col-lg-3 noticias">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+</div>
+</div>
+<footer>
+<div class="container">
+	<h3> El footer </h3>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</body>
+</html>

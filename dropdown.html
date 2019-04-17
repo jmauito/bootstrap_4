@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DropDown</title>
+	 <link href="theme/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+	 <br>
+
+	 <h3>Un dropdown simple con un elemento deshabilitado</h3>
+	 <div class="dropdown">
+	 	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+	 		Seleccionar...
+	 		<span class="caret"></span>
+	 	</button>
+	 	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation" class="disabled"> <a href="#" role="item">Item #1</a> </li>
+	 	</ul>
+	 </div>
+
+
+
+	 <h3>Dropdown con secciones y un elemento deshabilitado</h3>
+	 <div class="dropdown">
+	 	<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+	 		Seleccionar...
+	 		<span class="caret"></span>
+	 	</button>
+	 	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	 		<li class="dropdown-header" role="presentation">Sección 1</li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation" class="disabled"> <a href="#" role="item">Item #1</a> </li>
+	 	</ul>
+	 </div>
+
+
+
+	 <h3>Dropdown con secciones</h3>
+
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="elMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Dropdown
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="elMenu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Otra sección</a></li>
+      </ul>
+    </div>
+
+
+    <h3>Dropdown con dos botones</h3>
+
+    <div class="row">
+    	<div class="col-md-12">
+    		<div class="dropdown">
+    			<div class="btn btn-group">
+    			<button class="btn btn-default">
+    				Seleccionar...
+    			</button>
+    			<button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="dropdown">
+    				<span class="caret"></span>
+    			</button>
+
+    			<ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+    				<li><a href="">Valor 1</a></li>
+    				<li><a href="">Valor 2</a></li>
+    				<li><a href="">Valor 3</a></li>
+    				<li><a href="">Valor 4</a></li>
+    				<li><a href="">Valor 5</a></li>
+    			</ul>
+    			</div>
+    		</div>
+    	</div>	
+    </div>
+
+    <div class="row">
+    	<div class="col-md-12">
+    		<div class="dropdown">
+    			<div class="btn btn-group btn-group-lg">
+    			<button class="btn btn-default">
+    				Seleccionar...
+    			</button>
+    			<button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="dropdown">
+    				<span class="caret"></span>
+    			</button>
+
+    			<ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+    				<li><a href="">Valor 1</a></li>
+    				<li><a href="">Valor 2</a></li>
+    				<li><a href="">Valor 3</a></li>
+    				<li><a href="">Valor 4</a></li>
+    				<li><a href="">Valor 5</a></li>
+    			</ul>
+    			</div>
+    		</div>
+    	</div>	
+    	<div class="dropdown">
+    			<div class="btn btn-group btn-group-md">
+    			<button class="btn btn-default">
+    				Seleccionar...
+    			</button>
+    			<button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="dropdown">
+    				<span class="caret"></span>
+    			</button>
+
+    			<ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+    				<li><a href="">Valor 1</a></li>
+    				<li><a href="">Valor 2</a></li>
+    				<li><a href="">Valor 3</a></li>
+    				<li><a href="">Valor 4</a></li>
+    				<li><a href="">Valor 5</a></li>
+    			</ul>
+    			</div>
+    		</div>
+    	</div>	
+    	<div class="dropdown">
+    			<div class="btn btn-group">
+    			<button class="btn btn-default btn-sm btn-danger">
+    				Seleccionar...
+    			</button>
+    			<button class="btn btn-default btn-sm btn-danger dropdown-toggle" type="button" id="menu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="dropdown">
+    				<span class="caret"></span>
+    			</button>
+
+    			<ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+    				<li><a href="">Valor 1</a></li>
+    				<li><a href="">Valor 2</a></li>
+    				<li><a href="">Valor 3</a></li>
+    				<li><a href="">Valor 4</a></li>
+    				<li><a href="">Valor 5</a></li>
+    			</ul>
+    			</div>
+    		</div>
+    	</div>	
+    	</div>
+    </div>
+
+    <h3>DrowUp!, el menú hacia arriba</h3>
+    <div class="row">
+    	<div class="col-md-12">
+    		<div class="dropup">
+      <button class="btn btn-default dropdown-toggle" type="button" id="elMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        DropUp
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="elMenu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+    	</div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="theme/js/jquery.js"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
+</body>
+</html>

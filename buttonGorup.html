@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gorup buttons</title>
+	 <link href="theme/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+	<h3>Grupo de botones</h3>
+	<div class="btn btn-group btn-group-lg">
+		<button class="btn btn-default">Derecha</button>
+		<button class="btn btn-default">Centro</button>
+		<button class="btn btn-default">Izquierda</button>
+	</div>
+
+	<h3>Toolbar</h3>
+
+	<div class="btn-toolbar">
+		<button class="btn btn-default">Derecha</button>
+		<button class="btn btn-default">Centro</button>
+		<button class="btn btn-default">Izquierda</button>
+	</div>
+
+	<h3>Botones verticales</h3>
+	<div class="btn-group-vertical">
+		<button class="btn btn-default">1</button>
+		<button class="btn btn-default">2</button>
+		<button id = "btn3" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">3<span class="caret"></span></button>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="btn3">
+	 		<li class="dropdown-header" role="presentation">Sección 1</li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation"> <a href="#" role="item">Item #1</a> </li>
+	 		<li role="presentation" class="disabled"> <a href="#" role="item">Item #1</a> </li>
+	 	</ul>
+	</div>
+
+	<h3>Gurpo de enlaces que ocupan toda la fila</h3>
+	<div class="btn btn-group btn-group-justified">
+		<a href="#" class="btn btn-default">1</a>
+		<a href="#" class="btn btn-default">2</a>
+		<a href="#" class="btn btn-default">3</a>
+	</div>
+
+	<h3>Grupo de botones que ocupan toda la fila</h3>
+	<div class="btn btn-group btn-group-justified">
+		<div class="btn btn-group">
+			<button class="btn btn-default">1</button>
+		</div>
+		<div class="btn btn-group">
+			<button class="btn btn-default">2</button>
+		</div>
+		<div class="btn btn-group">
+			<button class="btn btn-default">3</button>
+		</div>
+	</div>
+
+</div>
+	<script type="text/javascript" src="theme/js/jquery.js"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
+</body>
+</html>
